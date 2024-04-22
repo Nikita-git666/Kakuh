@@ -6,7 +6,7 @@ def start_interface():
     time.gmtime(1.5)
     print("иди нах")
 def main():
-    parser = argparse.ArgumentParser(description='Описание вашей программы')
+    parser = argparse.ArgumentParser(description='Завтра может будет (:')
     subparsers = parser.add_subparsers(help='Доступные подкоманды')
 
     # Подкоманда для интерфейса
@@ -18,7 +18,7 @@ def main():
     if hasattr(args, 'command'):
         if args.command == 'start':
             start_interface()
-    else:
+    else
         parser.print_help()
 
 if __name__ == "__main__":
