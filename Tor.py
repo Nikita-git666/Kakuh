@@ -1,10 +1,7 @@
 import argparse
-import time
 
 def start_interface():
-    print("Запуск интерфейса...")
-    time.gmtime(1.5)
-    print("иди нах")
+    print("Запуск интерфейса..")
 def main():
     parser = argparse.ArgumentParser(description='Завтра может будет (:')
     subparsers = parser.add_subparsers(help='Доступные подкоманды')
