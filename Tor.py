@@ -15,7 +15,7 @@ def main():
     if hasattr(args, 'command'):
         if args.command == 'start':
             start_interface()
-    else
+    else:
         parser.print_help()
 
 if __name__ == "__main__":
